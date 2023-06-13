@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client'
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
@@ -11,7 +12,7 @@ function MyFooter() {
     <footer>
       <AppBar position="static" style={{ backgroundColor: "lightgray", color: "black" }}>
         <Toolbar>
-          <Typography variant="h8" component="div" sx={{ flexGrow: 1, display: 'flex', justifyContent: 'center', alignItems: 'center', height:'80px' }}>
+          <Typography component="div" sx={{ flexGrow: 1, display: 'flex', justifyContent: 'center', alignItems: 'center', height:'80px' }}>
           <img src="/img/assets/pokeball.png" alt="logo" style={{ height:'50px', width:'50px', marginRight:'60px'}} />
 
             Travail TP2 - Techniques d’intégration 2
